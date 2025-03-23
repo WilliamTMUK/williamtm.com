@@ -1,6 +1,5 @@
 import { PC_2025, NAS_PLEX, MACBOOK, INTEL_NUC } from '@/data/computers'
 import Computers from '@/components/sections/computers'
-import List from '@/components/sections/key-value'
 
 export default function Page() {
   return (
