@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <div>
       <h1 className="text-2xl font-heading sm:text-4xl">Devices</h1>
-      <p className="mt-2 text-lg sm:text-xl">Stuff that isn&apos;t quite important enough to make the nav bar...</p>
+      <p className="mt-2 text-lg sm:text-xl">Stuff that isn&apos;t quite important enough to make the nav bar&hellip;</p>
 
       <div className="mb-10 text-base sm:text-lg">
         <p></p>
