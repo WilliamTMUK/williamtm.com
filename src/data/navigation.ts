@@ -4,11 +4,11 @@ const NAVIGATION: { text: string; href: string; }[] = [
     text: 'Home',
   },
   {
-    href: '/pc',
+    href: '/pc/',
     text: 'PC',
   },
   {
-    href: '/gigs',
+    href: '/gigs/',
     text: 'Gigs',
   },
 ]
