@@ -6,11 +6,7 @@ export default function Page() {
   return (
     <div>
       <h1 className="text-2xl font-heading sm:text-4xl">PCs</h1>
-      <p className="mt-2 text-lg sm:text-xl">Not quite PCPartPicker...</p>
-
-      <div className="mb-10 text-base sm:text-lg">
-        <p></p>
-      </div>
+      <p className="mt-2 mb-10 text-lg sm:text-xl">Not quite PCPartPicker…</p>
 
       <div className="space-y-4 mb-12">
         <h2 className="font-bold text-xl">PC (2025 Build)</h2>

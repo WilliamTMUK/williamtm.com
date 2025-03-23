@@ -10,12 +10,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        main: '#FD9745',
+        main: '#398CBF',
         mainAccent: '#fc7303', // not needed for shadcn components
         overlay: 'rgba(0,0,0,0.8)',
 
         // light mode
-        bg: '#fff4e0',
+        bg: '#C2D2F2',
         text: '#000',
         border: '#000',
 

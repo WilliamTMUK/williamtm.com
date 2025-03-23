@@ -5,11 +5,7 @@ export default function Page() {
   return (
     <div>
       <h1 className="text-2xl font-heading sm:text-4xl">Devices</h1>
-      <p className="mt-2 text-lg sm:text-xl">Stuff that isn‘t quite important enough to make the nav bar…</p>
-
-      <div className="mb-10 text-base sm:text-lg">
-        <p></p>
-      </div>
+      <p className="mt-2 mb-10 text-lg sm:text-xl">Stuff that is not quite important enough to make the nav bar…</p>
 
       <div className="space-y-4 mb-12">
         <h2 className="font-bold text-xl">TV (Bedroom)</h2>
