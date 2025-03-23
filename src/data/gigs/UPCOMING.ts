@@ -1,27 +1,49 @@
 const GIGS: {
   title: string;
   type?: string;
-  date: Date|string;
+  venue?: string;
+  date: Date;
 }[] = [
   {
     title: 'Nabil Abdulrashid - Urban Battuta',
-    date: new Date('2025-04-01'),
+    type: 'comedy',
+    venue: 'Stafford Gatehouse Theatre (MET)',
+    date: new Date('2025-04-15'),
   },
   {
-    title: 'Forest Live 2025',
-    date: 'TBC',
+    title: 'Forest Live 2025 - Nile Rodgers & CHIC, The Brand New Heavies',
+    venue: 'Cannock Chase Forest',
+    date: new Date('2025-06-25'),
+  },
+  {
+    title: 'Forest Live 2025 - Snow Patrol',
+    venue: 'Cannock Chase Forest',
+    date: new Date('2025-06-26'),
+  },
+  {
+    title: 'Forest Live 2025 - Sting',
+    venue: 'Cannock Chase Forest',
+    date: new Date('2025-06-27'),
+  },
+  {
+    title: 'Forest Live 2025 - James, Razerlight, Jamie Webster',
+    venue: 'Cannock Chase Forest',
+    date: new Date('2025-06-28'),
   },
   {
     title: 'Imagine Dragons - LOOM Tour',
-    date: new Date('2025-07-01'),
+    venue: 'Tottenham Hotspur Stadium, London',
+    date: new Date('2025-07-25'),
   },
   {
     title: 'Coldplay - Music of the Spheres Tour',
-    date: new Date('2025-08-01'),
+    venue: 'Wembley Stadium, London',
+    date: new Date('2025-08-30'),
   },
   {
     title: 'The Midnight',
-    date: new Date('2025-10-01'),
+    venue: 'Octagon Centre, Sheffield',
+    date: new Date('2025-10-10'),
   },
 ]
 
