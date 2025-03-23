@@ -4,7 +4,9 @@ import {
   SiSteam,
 } from '@icons-pack/react-simple-icons'
 
-const GAMING: { text: string; icon: IconType; href: string; title: string; }[] = [
+import Xbox from '@/assets/icons/xbox.svg'
+
+const GAMING: { text: string; icon: IconType|Symbol; href: string; title: string; }[] = [
   {
     text: 'Steam',
     icon: SiSteam,
@@ -17,12 +19,12 @@ const GAMING: { text: string; icon: IconType; href: string; title: string; }[] =
     href: 'https://profile.playstation.com/WilliamTM',
     title: 'PlayStation - WilliamTM',
   },
-  // {
-  //   text: 'Xbox',
-  //   icon: SiRockstargames,
-  //   href: 'https://live.xbox.com/en-GB/Profile?gamertag=WilliamTM',
-  //   title: 'Xbox Live - WilliamTM',
-  // },
+  {
+    text: 'Xbox',
+    icon: Xbox,
+    href: 'https://live.xbox.com/en-GB/Profile?gamertag=WilliamTM',
+    title: 'Xbox Live - WilliamTM',
+  },
 ]
 
 export default GAMING
