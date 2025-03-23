@@ -1,5 +1,6 @@
 const PAST_GIGS: {
   title: string;
+  type?: string;
   date?: Date|string;
 }[] = [
   {
@@ -7,6 +8,7 @@ const PAST_GIGS: {
   },
   {
     title: 'Cirque du Soleil - Delirium',
+    type: 'other',
   },
   {
     title: 'Stereophonics',
@@ -16,12 +18,15 @@ const PAST_GIGS: {
   },
   {
     title: 'Michael McIntyre - Live and Laughing',
+    type: 'comedy',
   },
   {
     title: 'Jimmy Carr - Rapier Wit',
+    type: 'comedy',
   },
   {
     title: 'Frankie Boyle - I Would Happily Punch Every One Of You In The Face',
+    type: 'comedy',
   },
   {
     title: 'Jean-Michel Jarre',
@@ -37,30 +42,37 @@ const PAST_GIGS: {
   },
   {
     title: 'Jimmy Carr - Gagging Order',
+    type: 'comedy',
   },
   {
     title: 'The Killers - Battle Born Tour',
   },
   {
     title: 'Rich Hall',
+    type: 'comedy',
   },
   {
     title: 'Russell Kane - Posturing Delivery',
+    type: 'comedy',
   },
   {
     title: 'Micky Flanagan - Back in the Game',
+    type: 'comedy',
   },
   {
     title: 'Rob Beckett',
+    type: 'comedy',
   },
   {
     title: 'Morcheeba feat. Skye',
   },
   {
     title: 'Nitro Circus Live',
+    type: 'other',
   },
   {
     title: 'Russell Howard - Wonderbox',
+    type: 'comedy',
   },
   {
     title: 'James Blunt - Moon Landing Tour',
@@ -76,11 +88,13 @@ const PAST_GIGS: {
   },
   {
     title: 'John Bishop - Supersonic',
+    type: 'comedy',
   },
 ]
 
 const UPCOMING_GIGS: {
   title: string;
+  type?: string;
   date: Date|string;
 }[] = [
   {

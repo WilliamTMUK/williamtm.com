@@ -1,4 +1,4 @@
-export default function Gigs({ items }: { items: { title: string; date?: Date|string; }[]; }) {
+export default function Gigs({ items }: { items: { title: string; type?: string; date?: Date|string; }[]; }) {
   return (
     <div className="mb-16 space-y-2 sm:space-y-4">
       {items.map((gig, id) => {
