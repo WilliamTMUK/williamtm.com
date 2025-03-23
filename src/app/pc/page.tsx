@@ -1,5 +1,7 @@
 import { PC_2025, NAS_PLEX, MACBOOK, INTEL_NUC } from '@/data/computers'
+import { TV_BEDROOM, TV_LOUNGE, MOBILE_DEVICES, CAMERA_GEAR, NETWORKING } from '@/data/devices'
 import Computers from '@/components/sections/computers'
+import List from '@/components/sections/key-value'
 
 export default function Page() {
   return (
@@ -28,6 +30,26 @@ export default function Page() {
       <div className="space-y-4 mb-12">
         <h2 className="font-bold text-xl">MacBook</h2>
         <Computers items={MACBOOK} />
+      </div>
+
+      <div className="space-y-4 mb-12">
+        <h2 className="font-bold text-xl">TV (Bedroom)</h2>
+        <List items={TV_BEDROOM} />
+      </div>
+
+      <div className="space-y-4 mb-12">
+        <h2 className="font-bold text-xl">Mobile Devices</h2>
+        <List items={MOBILE_DEVICES} />
+      </div>
+
+      <div className="space-y-4 mb-12">
+        <h2 className="font-bold text-xl">Camera Gear</h2>
+        <List items={CAMERA_GEAR} />
+      </div>
+
+      <div className="space-y-4 mb-12">
+        <h2 className="font-bold text-xl">Networking & Misc Stuff</h2>
+        <List items={NETWORKING} />
       </div>
     </div>
   )
