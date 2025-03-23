@@ -14,6 +14,18 @@ const TV_LOUNGE: {
     key: 'Satellite TV',
     value: 'Sky Q Mini',
   },
+  {
+    key: 'Streaming Box',
+    value: 'Apple TV 4K',
+  },
+  {
+    key: 'Streaming Box',
+    value: 'Roku Express 4K',
+  },
+  {
+    key: 'Speakers',
+    value: 'Mordaunt Short Avant 902i (2.0)',
+  },
 ]
 
 export default TV_LOUNGE
