@@ -6,7 +6,7 @@ import {
 
 import Xbox from '@/assets/icons/xbox.svg'
 
-const GAMING: { text: string; icon: IconType|Symbol; href: string; title: string; }[] = [
+const GAMING: { text: string; icon: IconType; href: string; title: string; }[] = [
   {
     text: 'Steam',
     icon: SiSteam,
