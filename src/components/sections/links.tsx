@@ -1,6 +1,7 @@
 import { IconType } from '@icons-pack/react-simple-icons'
+import { FC } from 'react'
 
-export default function Links({ links }: { links: { href: string; icon: IconType; text: string; }[]; }) {
+export default function Links({ links }: { links: { href: string; icon: IconType|FC; text: string; }[]; }) {
   return (
     <div className="my-4">
       <ul className="space-y-4">

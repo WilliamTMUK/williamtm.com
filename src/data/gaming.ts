@@ -4,9 +4,10 @@ import {
   SiSteam,
 } from '@icons-pack/react-simple-icons'
 
+import { FC } from 'react'
 import Xbox from '@/assets/icons/xbox.svg'
 
-const GAMING: { text: string; icon: IconType; href: string; title: string; }[] = [
+const GAMING: { text: string; icon: IconType|FC; href: string; title: string; }[] = [
   {
     text: 'Steam',
     icon: SiSteam,

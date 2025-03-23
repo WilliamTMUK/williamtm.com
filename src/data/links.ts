@@ -8,9 +8,10 @@ import {
   SiYoutube,
 } from '@icons-pack/react-simple-icons'
 
+import { FC } from 'react'
 import Pinkbike from '@/assets/icons/pinkbike.svg'
 
-const LINKS: { text: string; icon: IconType; href: string; title: string; }[] = [
+const LINKS: { text: string; icon: IconType|FC; href: string; title: string; }[] = [
   {
     text: 'Mastodon',
     icon: SiMastodon,
