@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  trailingSlash: true,
+  distDir: 'dist',
   basePath: process.env.PAGES_BASE_PATH,
   webpack: (config) => {
     const fileLoaderRule = config.module.rules.find((rule) =>
