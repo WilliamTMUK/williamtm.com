@@ -8,6 +8,8 @@ import {
   SiYoutube,
 } from '@icons-pack/react-simple-icons'
 
+import Pinkbike from '@/assets/icons/pinkbike.svg'
+
 const LINKS: { text: string; icon: IconType; href: string; title: string; }[] = [
   {
     text: 'Mastodon',
@@ -39,12 +41,12 @@ const LINKS: { text: string; icon: IconType; href: string; title: string; }[] = 
     href: 'https://www.youtube.com/user/williamhook',
     title: 'YouTube - William Hook',
   },
-  // {
-  //   text: 'Mastodon',
-  //   icon: SiPinkbike,
-  //   href: 'https://www.pinkbike.com/u/williamtm/',
-  //   title: 'Pinkbike - William Hook',
-  // },
+  {
+    text: 'Pinkbike',
+    icon: Pinkbike,
+    href: 'https://www.pinkbike.com/u/williamtm/',
+    title: 'Pinkbike - William Hook',
+  },
   {
     text: 'Letterboxd',
     icon: SiLetterboxd,
