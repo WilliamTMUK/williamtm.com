@@ -15,10 +15,12 @@ const GIGS: {
     title: 'Cirque du Soleil - Delirium',
     type: 'other',
     venue: 'National Indoor Arena, Birmingham',
+    date: new Date('2007-10-12'),
   },
   {
     title: 'Stereophonics',
     venue: 'The O₂, London',
+    date: new Date('2008-12-20'),
   },
   {
     title: 'The Killers - Day & Age Tour',
@@ -39,10 +41,13 @@ const GIGS: {
   },
   {
     title: 'Jean-Michel Jarre',
+    venue: 'The O₂, London',
+    date: new Date('2010-10-10'),
   },
   {
     title: 'Gorillaz - Plastic Beach Tour',
     venue: 'The O₂, London',
+    date: new Date('2010-11-14'),
   },
   {
     title: 'Katy Perry - California Girls Tour',
