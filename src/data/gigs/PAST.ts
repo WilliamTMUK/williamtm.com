@@ -30,14 +30,20 @@ const GIGS: {
   {
     title: 'Michael McIntyre - Live and Laughing',
     type: 'comedy',
+    venue: 'The O₂, London',
+    date: new Date('2009-09-29'),
   },
   {
     title: 'Jimmy Carr - Rapier Wit',
     type: 'comedy',
+    venue: 'Symphony Hall, Birmingham',
+    date: new Date('2010-12-12'),
   },
   {
     title: 'Frankie Boyle - I Would Happily Punch Every One Of You In The Face',
     type: 'comedy',
+    venue: 'National Indoor Arena, Birmingham',
+    date: new Date('2010-12-12'),
   },
   {
     title: 'Jean-Michel Jarre',
