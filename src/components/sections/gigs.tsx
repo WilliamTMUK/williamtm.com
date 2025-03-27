@@ -1,6 +1,18 @@
+function padTo2Digits(num: number) {
+  return num.toString().padStart(2, '0');
+}
+
+function formatDate(date: Date) {
+  return [
+    padTo2Digits(date.getDate()),
+    padTo2Digits(date.getMonth() + 1),
+    date.getFullYear(),
+  ].join('/');
+}
+
 function Date({ date }: { date: Date }) {
   return (
-    <em className="font-base not-italic">{date.toLocaleDateString()}</em>
+    <em className="font-base not-italic">{formatDate(date)}</em>
   );
 }
 
