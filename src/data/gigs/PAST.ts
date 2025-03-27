@@ -251,12 +251,12 @@ const GIGS: {
     date: new Date('2016-04-16'),
   },
   {
-    title: 'James Bay (Forest Live)',
+    title: 'Foest Live 2016: James Bay',
     venue: 'Cannock Chase Forest, Rugeley',
     date: new Date('2016-07-08'),
   },
   {
-    title: 'Kaiser Chiefs (Forest Live)*',
+    title: 'Forest Live 2016: Kaiser Chiefs*',
     venue: 'Cannock Chase Forest, Rugeley',
     date: new Date('2016-07-10'),
   },
@@ -283,12 +283,12 @@ const GIGS: {
     date: new Date('2016-11-12'),
   },
   {
-    title: 'Rick Astley (Forest Live)*',
+    title: 'Forest Live 2017: Rick Astley*',
     venue: 'Cannock Chase Forest, Rugeley',
     date: new Date('2017-07-08'),
   },
   {
-    title: 'Tom Jones (Forest Live)',
+    title: 'Forest Live 2017: Tom Jones',
     venue: 'Cannock Chase Forest, Rugeley',
     date: new Date('2017-07-09'),
   },
@@ -348,17 +348,17 @@ const GIGS: {
     date: new Date('2018-03-27'),
   },
   {
-    title: 'Paloma Faith (Forest Live)*',
+    title: 'Forest Live 2018: Paloma Faith*',
     venue: 'Cannock Chase Forest, Rugeley',
     date: new Date('2018-06-29'),
   },
   {
-    title: 'Paul Heaton & Jacqui Abbott (Forest Live)*',
+    title: 'Forest Live 2018: Paul Heaton & Jacqui Abbott*',
     venue: 'Cannock Chase Forest, Rugeley',
     date: new Date('2018-06-30'),
   },
   {
-    title: 'George Ezra (Forest Live)',
+    title: 'Forest Live 2018: George Ezra',
     venue: 'Cannock Chase Forest, Rugeley',
     date: new Date('2018-07-01'),
   },
@@ -526,7 +526,7 @@ const GIGS: {
     date: new Date('2022-06-04'),
   },
   {
-    title: "Rag'n'Bone Man (Forest Live)*",
+    title: "Forest Live 2022: Rag'n'Bone Man*",
     venue: 'Cannock Chase Forest, Rugeley',
     date: new Date('2022-06-10'),
   },
@@ -586,12 +586,12 @@ const GIGS: {
     date: new Date('2024-06-14'),
   },
   {
-    title: 'The Charlatans & Johnny Marr (Forest Live)*',
+    title: 'Forest Live 2024: The Charlatans & Johnny Marr*',
     venue: 'Cannock Chase Forest, Rugeley',
     date: new Date('2024-06-28'),
   },
   {
-    title: 'Olly Murs (Forest Live)*',
+    title: 'Forest Live 2024: Olly Murs*',
     venue: 'Cannock Chase Forest, Rugeley',
     date: new Date('2024-06-29'),
   },
@@ -608,7 +608,7 @@ const GIGS: {
   {
     title: 'Jason Manford: A Manford All Seasons',
     type: 'comedy',
-    venue: 'Stafford Gatehouse Theatre',
+    venue: 'Gatehouse Theatre, Stafford',
     date: new Date('2024-10-10'),
   },
   {
@@ -619,7 +619,7 @@ const GIGS: {
   {
     title: 'Milton Jones: Ha!milton',
     type: 'comedy',
-    venue: 'Stafford Gatehouse Theatre',
+    venue: 'Gatehouse Theatre, Stafford',
     date: new Date('2025-02-16'),
   },
   {
