@@ -7,7 +7,7 @@ const GIGS: {
   {
     title: 'Nabil Abdulrashid - Urban Battuta',
     type: 'comedy',
-    venue: 'Stafford Gatehouse Theatre (MET)',
+    venue: 'Gatehouse Theatre, Stafford',
     date: new Date('2025-04-15'),
   },
   {
