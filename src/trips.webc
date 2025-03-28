@@ -6,6 +6,9 @@ eleventyNavigation:
 ---
 <script webc:setup>
     const trips = $data.collections.trips
+    // trips.map(function (trip) {
+    //     console.log(trip)
+    // })
 </script>
 
 <h2 class="text-2xl font-heading sm:text-4xl" @text="title"></h2>
@@ -13,10 +16,13 @@ eleventyNavigation:
 
 <section class="w700:grid-cols-1 grid grid-cols-2 gap-5">
     <a :href="trip.url" class="rounded-base shadow-light border-2 border-border bg-main text-text w-[350px] transition-all last:mb-0 hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none dark:border-darkBorder dark:shadow-dark dark:hover:shadow-none" webc:for="(key, trip) in trips">
-        <div class="flex flex-col space-y-1.5 p-6">
-            <h2 class="text-xl leading-none font-heading tracking-tight" @text="trip.data.title"></h2>
-            <p class="text-sm text-text font-base !mt-3" @text="trip.data.summary"></p>
-            <p class="font-base not-italic" webc:if="trip.data.date" @text="date(trip.data.date, 'dd/MM/yyyy')"></p>
-        </div>
+        <figure class="overflow-hidden rounded-base">
+            <img class="w-full aspect-[4/3] block border-0 outline-0" :src="`./trips/${trip.fileSlug}/cover.webp`" alt="" />
+            <figcaption class="flex flex-col space-y-1.5 border-t-2 border-border dark:border-darkBorder text-mtext p-4">
+                <h2 class="text-xl leading-none font-heading tracking-tight" @text="trip.data.title"></h2>
+                <p class="text-sm text-text font-base !mt-3" @text="trip.data.summary"></p>
+                <p class="font-base not-italic" webc:if="trip.data.date" @text="date(trip.data.date, 'dd/MM/yyyy')"></p>
+            </figcaption>
+        </figure>
     </a>
 </section>
