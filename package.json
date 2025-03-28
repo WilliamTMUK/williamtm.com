@@ -3,40 +3,72 @@
   "description": "Website for https://williamtm.com",
   "version": "0.0.1",
   "private": true,
-  "type": "module",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+  "keywords": [],
+  "homepage": "https://www.williamtm.com",
+  "config": {
+    "title": "William Hook",
+    "description": "William Hook, a thirty-something year old mountain biker and photographer from Stafford, United Kingdom."
   },
-  "dependencies": {
-    "@icons-pack/react-simple-icons": "^9.4.1",
-    "@radix-ui/react-aspect-ratio": "^1.0.3",
-    "@radix-ui/react-tooltip": "^1.0.7",
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.1.1",
-    "lucide-react": "^0.378.0",
-    "next": "^14.2.3",
-    "next-themes": "^0.3.0",
-    "next-view-transitions": "^0.1.1",
-    "react": "^18",
-    "react-dom": "^18",
-    "tailwind-merge": "^2.3.0",
-    "tailwindcss-animate": "^1.0.7"
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "author": {
+    "name": "Trevor Morris",
+    "url": "https://www.trovster.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilliamTMUK/williamtm.com.git"
+  },
+  "scripts": {
+    "test": "",
+    "clean": "rm -rf dist",
+    "11ty": "npx @11ty/eleventy $npm_config_pathprefix",
+    "css": "npx postcss ./public/css/site.css -o ./dist/assets/css/site.css",
+    "prestart": "npm run clean",
+    "start": "npm run 11ty -- --serve --quiet & npm run css -- --watch",
+    "dev": "npm run start",
+    "prebuild": "npm run clean",
+    "build": "npm run 11ty",
+    "postbuild": "npm run css -- --minify",
+    "prettier": "npx stylelint 'public/**/*.css' --fix && npx prettier --write .",
+    "prepare": "husky"
   },
   "devDependencies": {
-    "@svgr/webpack": "^8.1.0",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.3",
-    "eslint-config-prettier": "^9.1.0",
-    "postcss": "^8",
-    "prettier": "^3.2.5",
-    "prettier-plugin-tailwindcss": "^0.5.14",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy-plugin-webc": "^0.11.2",
+    "@tailwindcss/postcss": "^4.0.17",
+    "@tailwindcss/typography": "^0.5.16",
+    "@tailwindcss/vite": "^4.0.17",
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.6",
+    "dotenv": "^16.4.5",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.0",
+    "luxon": "^3.6.0",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1",
+    "postcss-import": "^16.1.0",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "simple-icons": "^14.11.1",
+    "stylelint": "^16.17.0",
+    "stylelint-config-standard": "^37.0.0",
+    "tailwind-merge": "^3.0.2",
+    "tailwindcss": "^4.0.17",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "dependencies": {
+    "@11ty/eleventy-img": "^6.0.1"
+  },
+  "lint-staged": {
+    "*.css": [
+      "stylelint --fix",
+      "prettier --write"
+    ],
+    "*.{js,ts,md,webc}": "prettier --write ."
   }
 }

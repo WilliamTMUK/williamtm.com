@@ -1,0 +1,36 @@
+{
+    "semi": false,
+    "singleQuote": false,
+    "trailingComma": "all",
+    "printWidth": 1000,
+    "tabWidth": 4,
+    "plugins": ["prettier-plugin-tailwindcss"],
+    "tailwindStylesheet": "./public/css/site.css",
+    "tailwindConfig": "./tailwind.config.ts",
+    "overrides": [
+        {
+            "files": "*.json",
+            "options": {
+                "tabWidth": 2
+            }
+        },
+        {
+            "files": "*.webc",
+            "options": {
+                "tabWidth": 4
+            }
+        },
+        {
+            "files": "*.toml",
+            "options": {
+                "tabWidth": 2
+            }
+        },
+        {
+            "files": "*.yml",
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
+}

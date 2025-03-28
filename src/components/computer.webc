@@ -1,0 +1,8 @@
+<table class="w-full border-darkBg border-2 text-sm dark:border-slate-800">
+    <tbody class="[&_tr:last-child]:border-0">
+        <tr class="border-darkBg border-b-2 bg-main font-base data-[state=selected]:bg-bw" webc:for="(key, row) in rows">
+            <td class="p-4 align-middle font-bold" @text="row.key"></td>
+            <td class="p-4 align-middle font-base text-right" @text="row.value"></td>
+        </tr>
+    </tbody>
+</table>

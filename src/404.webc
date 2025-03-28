@@ -1,0 +1,11 @@
+---
+title: Page Not Found
+permalink: 404.html
+---
+<div class="container my-12 mx-auto prose md:prose-xl text-center max-w-md">
+    <h2 class="font-bold mb-2 text-xl md:mb-4" @text="title"></h2>
+    <p class="prose-lead">
+        Sorry, the page you are looking for could not be found.
+        Please try the <a href="/" class="underline hover:no-underline focus:no-underline outline-0">homepage</a>.
+    </p>
+</div>

@@ -1,6 +1,6 @@
 # Williamtm.com
 
-Website built using [Next.js](https://nextjs.org) and the
+Website built using [Eleventy](https://www.11ty.dev) and based on the
 [Neobrutalism](https://www.neobrutalism.dev) component library. It is hosted on
 GitHub pages.
 
@@ -29,20 +29,20 @@ npm i
 
 ## Development
 
-To work on the project locally, you can run `npm run dev` which will give you a
+To work on the project locally, you can run `npm start` which will give you a
 URL to visit. This includes hot-reloading. [Tailwind](https://tailwindcss.com)
 is used for styling HTML and [Neobrutalism](https://www.neobrutalism.dev)
 components can be used.
 
 ### Pages
 
-Pages are found in the `src/app` folder. Each page should be created in a folder
-which matches the URI you want. The page should be a `page.tsx` template.
+Pages are found in the `src/` folder. Each page should be created in a folder
+which matches the URI you want. The page should be a `the-page.webc` template.
 
 ### Data
 
 Separate data files are used to manage content. These are found within the
-`app/data` folder.
+`src/data` folder.
 
 ## Deployment
 

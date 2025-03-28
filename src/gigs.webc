@@ -1,0 +1,13 @@
+---
+title: Gigs
+eleventyNavigation:
+  key: Gigs
+  order: 20
+---
+<script webc:setup>
+  const pastGigs = past($data.collections.gigs)
+  const upcomingGigs = upcoming($data.collections.gigs)
+</script>
+
+<list-gigs title="Gigs Seen Live" :gigs="pastGigs"></list-gigs>
+<list-gigs title="Upcoming Gigs" :gigs="upcomingGigs"></list-gigs>
