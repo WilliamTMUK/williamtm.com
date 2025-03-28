@@ -1,0 +1,4 @@
+---
+layout: default.webc
+---
+<section id="content" @raw="content" class="prose prose-lightMode dark:prose-darkMode prose-headings:font-heading prose-headings:text-text dark:prose-headings:text-darkText prose-a:text-text prose-blockquote:text-text prose-strong:text-text prose-ol:text-text prose-ul:text-text prose-table:text-text prose-tr:text-text prose-td:text-text dark:prose-a:dark:text-darkText dark:prose-blockquote:text-darkText dark:prose-strong:text-darkText dark:prose-ol:text-darkText dark:prose-ul:text-darkText dark:prose-table:text-darkText dark:prose-tr:text-darkText dark:prose-td:text-darkText w500:prose-h1:text-xl w500:prose-h2:text-lg w500:prose-h3:text-base w500:prose-h4:text-sm w500:prose-h5:text-sm w500:prose-h6:text-sm w-full min-w-full leading-loose text-text dark:text-darkText w500:text-sm w500:leading-[2.2] w400:text-xs w400:leading-[2.2]"></section>

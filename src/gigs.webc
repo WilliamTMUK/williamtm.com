@@ -3,8 +3,6 @@ title: Gigs
 eleventyNavigation:
     key: Gigs
     order: 30
-eleventyImport:
-    collections: ["gigs"]
 ---
 <script webc:setup>
     const pastGigs = past($data.collections.gigs)
