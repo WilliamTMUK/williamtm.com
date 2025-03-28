@@ -17,7 +17,7 @@ const collections = {
      * @param {Array} arr - items to filter
      * @returns {Array} filtered items
      */
-    upcoming: (arr) => (arr ?? []).filter((post) => DateTime.fromISO(post.data.date) >= DateTime.now()),
+    upcoming: (arr) => (arr ?? []).filter((post) => DateTime.fromISO(post.data.date instanceof Date ? post.data.date.toISOString() : post.data.date) >= DateTime.now()),
 
     /**
      * Past items, based on post.data.date.
@@ -25,7 +25,7 @@ const collections = {
      * @param {Array} arr - items to filter
      * @returns {Array} filtered items
      */
-    past: (arr) => (arr ?? []).filter((post) => DateTime.fromISO(post.data.date) < DateTime.now()),
+    past: (arr) => (arr ?? []).filter((post) => DateTime.fromISO(post.data.date instanceof Date ? post.data.date.toISOString() : post.data.date) < DateTime.now()),
 
     /**
      * Exclude items from an array, based on the URL.

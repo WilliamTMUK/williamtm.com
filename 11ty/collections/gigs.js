@@ -12,11 +12,11 @@ export default async (collection, config) => {
             title: gig.title,
             data: {
                 ...gig,
-                date: gig.date?.toISOString(),
+                date: gig.date,
             },
             url: (function () {
                 if (gig.date) {
-                    return `/gigs/${date(gig.date.toISOString(), "y-LL-dd")}/${slugify(gig.title)}/`
+                    return `/gigs/${date(gig.date, "y-LL-dd")}/${slugify(gig.title)}/`
                 }
 
                 return `/gigs/${slugify(gig.title)}/`

@@ -4,21 +4,21 @@ const dates = {
     /**
      * Check whether a date is in the future.
      *
-     * @param {String} date - string Date
+     * @param {Date|String} date - string Date
      * @returns {Boolean}
      */
     isFuture: (date) => {
-        return DateTime.fromISO(date) >= DateTime.now()
+        return DateTime.fromISO(date instanceof Date ? date.toISOString() : date) >= DateTime.now()
     },
 
     /**
      * Check whether a date is in the past.
      *
-     * @param {String} date - string Date
+     * @param {Date|String} date - string Date
      * @returns {Boolean}
      */
     isPast: (date) => {
-        return DateTime.fromISO(date) <= DateTime.now()
+        return DateTime.fromISO(date instanceof Date ? date.toISOString() : date) <= DateTime.now()
     },
 }
 

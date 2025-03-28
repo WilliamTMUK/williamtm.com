@@ -1,7 +1,7 @@
 ---
 eleventyNavigation:
     key: Home
-    order: 20
+    order: 10
 ---
 <script webc:setup>
     const social = $data.links ?? []

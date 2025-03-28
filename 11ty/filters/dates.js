@@ -13,13 +13,13 @@ const dates = {
      * Format a date with Luxon.
      * If you provide dS in the format, it assumes you want the ordinal suffix.
      *
-     * @param {String} date - string Date
+     * @param {Date|String} date - string Date
      * @param {String} format - date format (Luxon)
      * @param {String} locale - locale
      * @returns {String} formatted date
      */
     date: (date, format, locale = "en") => {
-        date = DateTime.fromISO(date).setLocale(locale)
+        date = DateTime.fromISO(date instanceof Date ? date.toISOString() : date).setLocale(locale)
         return date.toFormat(format.replace("dS ", ordinal(date.day)))
     },
 }
