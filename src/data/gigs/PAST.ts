@@ -236,8 +236,10 @@ const GIGS: {
     date: new Date('2016-02-06'),
   },
   {
-    title: 'Romesh Ranganathan - Irrational',
-    type: 'comedy',
+    title: "Romesh Ranganathan - Irrational",
+    type: "comedy",
+    venue: "Gatehouse Theatre, Stafford",
+    date: new Date("2016-03-11"),
   },
   {
     title: 'Gregory Porter',
