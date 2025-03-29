@@ -1,0 +1,6 @@
+<ul class="list-none">
+    <li class="space-x-1" webc:for="(key, row) in rows">
+        <strong @text="row.key"></strong>
+        <span @text="row.value"></span>
+    </li>
+</ul>

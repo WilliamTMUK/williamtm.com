@@ -1,0 +1,20 @@
+---
+title: PCs
+eleventyNavigation:
+    key: PC
+    order: 20
+---
+<script webc:setup>
+    const computers = $data.collections.computers
+</script>
+
+<h2 class="text-2xl font-heading sm:text-4xl" @text="title"></h2>
+<p class="mt-2 mb-10 text-lg sm:text-xl">Not quite PCPartPicker…</p>
+
+<div class="space-y-4 mb-12" webc:for="(key, computer) in computers">
+    <h2 class="font-bold text-xl" @text="computer.title"></h2>
+    <div class="relative w-full overflow-auto">
+        <computer :rows="computer.data"></computer>
+    </div>
+</div>
+

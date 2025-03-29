@@ -1,0 +1,8 @@
+<a
+    target="_blank"
+    :href="item.href"
+    :title="item.title"
+    class="block outline-0 border-border dark:border-darkBorder shadow-light dark:shadow-dark rounded-base border-2 bg-main p-5 gap-4 transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none focus:translate-x-boxShadowX focus:translate-y-boxShadowY focus:shadow-none dark:hover:shadow-none dark:focus:shadow-none">
+    <span @raw="item.icon" class="block h-8 w-8 sm:h-10 sm:w-10"></span>
+    <span class="block mt-2 text-lg font-heading sm:text-xl" @text="item.text"></span>
+</a>

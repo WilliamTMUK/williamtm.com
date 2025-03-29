@@ -1,0 +1,23 @@
+<!doctype html>
+<html dir="ltr" lang="en" class="light">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="keywords" :content="site.keywords.join(', ')"/>
+        <meta name="apple-mobile-web-app-title" :content="site.title"/>
+        <meta name="application-name" :content="site.title"/>
+        <meta property="og:title" :content="site.title"/>
+        <meta property="og:description" name="description" :content="site.description"/>
+
+        <title @text="title ? `${title} | ${site.title}` : `${site.title}`"></title>
+
+        <link webc:keep rel="stylesheet" href="/assets/css/site.css"/>
+
+        <script :src="getBundleFileUrl('js')" webc:keep></script>
+    </head>
+    <body :class="bodyClass ?? ''">
+        <site-header></site-header>
+        <main @raw="content" class="text-text dark:text-darkText mx-auto w-[750px] max-w-full px-5 pb-10 pt-28"></main>
+        <site-footer></site-footer>
+    </body>
+</html>

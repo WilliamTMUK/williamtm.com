@@ -1,0 +1,7 @@
+<nav class="flex">
+    <ul class="flex gap-5">
+        <li webc:for="(key, item) in eleventyNavigation($data.collections.all)" :class="$data.page.url === item.url ? 'active' : ''">
+            <a :href="item.url" class="block outline-0 font-base rounded-base border-transparent border-2 px-2 py-1 hover:border-border focus:border-border dark:hover:border-darkBorder dark:focus:border-darkBorder" @text="item.title"></a>
+        </li>
+    </ul>
+</nav>

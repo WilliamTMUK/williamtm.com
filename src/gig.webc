@@ -1,0 +1,11 @@
+---
+pagination:
+    data: collections.gigs
+    size: 1
+    alias: gig
+---
+<h1 class="text-2xl font-heading sm:text-3xl mb-1" @text="title"></h1>
+<div class="flex flex-col">
+    <em class="font-base not-italic" @text="gig.data.venue"></em>
+    <em class="font-base not-italic" webc:if="gig.data.date" @text="date(gig.data.date, 'dd/MM/yyyy')"></em>
+</div>
