@@ -17,7 +17,7 @@
     src:
         local("Montserrat Bold"),
         local("Montserrat-Bold"),
-        url("../fonts/montserrat-Bold.woff2") format("woff2");
+        url("../fonts/Montserrat-Bold.woff2") format("woff2");
     font-style: normal;
     font-weight: 700;
 }

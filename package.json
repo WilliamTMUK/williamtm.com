@@ -34,7 +34,7 @@
     "build": "npm run 11ty",
     "postbuild": "npm run css -- --minify",
     "prettier": "npx stylelint 'public/**/*.css' --fix && npx prettier --write .",
-    "prepare": "husky"
+    "prepare": "npx husky"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
@@ -45,7 +45,7 @@
     "@tailwindcss/vite": "^4.0.17",
     "autoprefixer": "^10.4.20",
     "cssnano": "^7.0.6",
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.4.7",
     "husky": "^9.1.7",
     "lint-staged": "^15.5.0",
     "luxon": "^3.6.0",

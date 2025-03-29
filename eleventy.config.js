@@ -22,6 +22,7 @@ export default (config) => {
     config.addWatchTarget("./public/js")
     config.addPassthroughCopy({
         "public/fonts/": "/assets/fonts/",
+        "public/favicon.ico": "/favicon.ico",
     })
 
     config.addLayoutAlias("default", "layouts/default.webc")
