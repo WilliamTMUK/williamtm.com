@@ -231,6 +231,8 @@ const PAST_GIGS = [
     {
         title: "Romesh Ranganathan - Irrational",
         type: "comedy",
+        venue: "Gatehouse Theatre, Stafford",
+        date: new Date("2016-03-11"),
     },
     {
         title: "Gregory Porter",
