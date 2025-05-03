@@ -1,11 +1,5 @@
 const UPCOMING_GIGS = [
     {
-        title: "Nabil Abdulrashid - Urban Battuta",
-        type: "comedy",
-        venue: "Gatehouse Theatre, Stafford",
-        date: new Date("2025-04-15"),
-    },
-    {
         title: "Forest Live 2025 - Nile Rodgers & CHIC, The Brand New Heavies",
         venue: "Cannock Chase Forest, Rugeley",
         date: new Date("2025-06-25"),

@@ -1,7 +1,7 @@
 const COMPUTER = [
     {
         key: "Hostname",
-        value: "qb.williamtm.com",
+        value: "inf-qb.williamtm.com",
     },
     {
         key: "Case",
@@ -28,8 +28,12 @@ const COMPUTER = [
         value: "Kingston FURY Beast 32 GB (2x16 GB, DDR5, 5200 MT/s, CL40)",
     },
     {
-        key: "SSD",
-        value: "Crucial P3 Plus 500GB PCIe 4.0 M.2 NVMe",
+        key: "SSD 1",
+        value: "Samsung 990 Pro 2TB PCIe 4.0 M.2 NVMe",
+    },
+    {
+        key: "SSD 2",
+        value: "Samsung 970 EVO Plus 2TB PCIe 3.0 M.2 NVMe",
     },
     {
         key: "HBA",

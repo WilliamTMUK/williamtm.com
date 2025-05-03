@@ -622,6 +622,17 @@ const PAST_GIGS = [
         venue: "Chester Cathedral",
         date: new Date("2025-03-08"),
     },
+    {
+        title: "Nabil Abdulrashid - Urban Battuta",
+        type: "comedy",
+        venue: "Gatehouse Theatre, Stafford",
+        date: new Date("2025-04-15"),
+    },
+    {
+        title: "Daft Punkz (The Live Band Daft Punk Tribute)",
+        venue: "The Robin, Wolverhampton",
+        date: new Date("2025-04-19"),
+    },
 ]
 
 export default PAST_GIGS
