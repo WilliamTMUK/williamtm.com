@@ -61,7 +61,15 @@ const COMPUTER = [
     },
     {
         key: "OS",
-        value: "Windows 11 Pro (Future: TrueNAS SCALE)",
+        value: "Proxmox VE 8",
+    },
+    {
+        key: "VMs",
+        value: "INF-QB-PlexNAS (Windows 11 Pro), V2 (Windows Server 2025), INF-HomeAssistant (Home Assistant OS)",
+    },
+    {
+        key: "LXCs",
+        value: "INF-PiHole, NGINX-Proxy, NGINX-williamtm.com, NGINX-kt, NGINX-fh, NGINX-m4",
     },
 ]
 
