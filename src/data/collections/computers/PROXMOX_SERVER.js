@@ -25,7 +25,7 @@ const COMPUTER = [
     },
     {
         key: "RAM",
-        value: "Corsair Vengeance 96GB (2x48GB, DDR5, 5600 MT/s, CL40)",
+        value: "Corsair Vengeance 96GB (2×48GB, DDR5, 5600 MT/s, CL40)",
     },
     {
         key: "SSD 1",

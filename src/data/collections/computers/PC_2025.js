@@ -25,7 +25,7 @@ const COMPUTER = [
     },
     {
         key: "RAM",
-        value: "Kingston FURY Beast 64GB (2x32GB, DDR5, 6400 MT/s CL32)",
+        value: "Kingston FURY Beast 64GB (2×32GB, DDR5, 6400 MT/s CL32)",
     },
     {
         key: "GPU",
