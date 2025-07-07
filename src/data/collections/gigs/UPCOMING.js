@@ -17,7 +17,7 @@ const UPCOMING_GIGS = [
     {
         title: "Daft Punkz (The Live Band Daft Punk Tribute)",
         venue: "The Station, Cannock",
-        date: new Date("2025-04-19"),
+        date: new Date("2026-02-21"),
     },
 ]
 
