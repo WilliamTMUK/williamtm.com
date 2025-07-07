@@ -25,7 +25,7 @@ const COMPUTER = [
     },
     {
         key: "RAM",
-        value: "Kingston FURY Beast 32 GB (2x16 GB, DDR5, 5200 MT/s, CL40)",
+        value: "Corsair Vengeance 96GB (2x48GB, DDR5, 5600 MT/s, CL40)",
     },
     {
         key: "SSD 1",
@@ -65,11 +65,11 @@ const COMPUTER = [
     },
     {
         key: "VMs",
-        value: "INF-QB-PlexNAS (Windows 11 Pro), V2 (Windows Server 2025), INF-HomeAssistant (Home Assistant OS)",
+        value: "INF-QB-PlexNAS (Windows 11 Pro), INF-QB-V2 (Windows Server 2025), INF-QB-HomeAssistant, INF-QB-Docker, INF-QB-ADSB",
     },
     {
         key: "LXCs",
-        value: "INF-PiHole, NGINX-Proxy, NGINX-williamtm.com, NGINX-kt, NGINX-fh, NGINX-m4",
+        value: "INF-PiHole, NGINX-Proxy (not used), NGINX-williamtm.com, NGINX-kt, NGINX-fh, NGINX-m4, INF-QB-UptimeKuma",
     },
 ]
 

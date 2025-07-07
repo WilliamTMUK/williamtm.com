@@ -633,6 +633,21 @@ const PAST_GIGS = [
         venue: "The Robin, Wolverhampton",
         date: new Date("2025-04-19"),
     },
+    {
+        title: "Forest Live 2025 - Nile Rodgers & CHIC, The Brand New Heavies",
+        venue: "Cannock Chase Forest, Rugeley",
+        date: new Date("2025-06-25"),
+    },
+    {
+        title: "Forest Live 2025 - Snow Patrol, Freya Ridings, The Florentinas",
+        venue: "Cannock Chase Forest, Rugeley",
+        date: new Date("2025-06-26"),
+    },
+    {
+        title: "Forest Live 2025 - Sting, Imelda May, Sophie Grey",
+        venue: "Cannock Chase Forest, Rugeley",
+        date: new Date("2025-06-27"),
+    },
 ]
 
 export default PAST_GIGS
