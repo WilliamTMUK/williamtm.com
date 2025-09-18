@@ -648,6 +648,21 @@ const PAST_GIGS = [
         venue: "Cannock Chase Forest, Rugeley",
         date: new Date("2025-06-27"),
     },
+    {
+        title: "Imagine Dragons - LOOM Tour",
+        venue: "Tottenham Hotspur Stadium, London",
+        date: new Date("2025-07-25"),
+    },
+    {
+        title: "Coldplay - Music of the Spheres Tour",
+        venue: "Wembley Stadium, London",
+        date: new Date("2025-08-30"),
+    },
+    {
+        title: "OneRepublic - Escape To Europe Tour",
+        venue: "Utilita Arena, Birmingham",
+        date: new Date("2025-09-20"),
+    },
 ]
 
 export default PAST_GIGS

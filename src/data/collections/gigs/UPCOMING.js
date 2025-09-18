@@ -1,13 +1,9 @@
 const UPCOMING_GIGS = [
     {
-        title: "Imagine Dragons - LOOM Tour",
-        venue: "Tottenham Hotspur Stadium, London",
-        date: new Date("2025-07-25"),
-    },
-    {
-        title: "Coldplay - Music of the Spheres Tour",
-        venue: "Wembley Stadium, London",
-        date: new Date("2025-08-30"),
+        title: "Henning Wehn - Acid Wehn",
+        type: "comedy",
+        venue: "Gatehouse Theatre, Stafford",
+        date: new Date("2025-10-08"),
     },
     {
         title: "The Midnight",

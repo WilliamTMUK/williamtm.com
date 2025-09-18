@@ -1,7 +1,7 @@
 const MOBILE_DEVICES = [
     {
-        key: "iPhone 16 Pro Max",
-        value: "512GB, Space Black",
+        key: "iPhone 17 Pro Max",
+        value: "512GB, Cosmic Orange",
     },
     {
         key: "iPad Pro 11 Inch (M4)",

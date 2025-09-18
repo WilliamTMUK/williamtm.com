@@ -65,11 +65,11 @@ const COMPUTER = [
     },
     {
         key: "VMs",
-        value: "INF-QB-PlexNAS (Windows 11 Pro), INF-QB-V2 (Windows Server 2025), INF-QB-HomeAssistant, INF-QB-Docker, INF-QB-ADSB",
+        value: "Windows 11 Pro, Windows Server 2025, HomeAssistant, Docker, ADSB Feeder",
     },
     {
         key: "LXCs",
-        value: "INF-PiHole, NGINX-Proxy (not used), NGINX-williamtm.com, NGINX-kt, NGINX-fh, NGINX-m4, INF-QB-UptimeKuma",
+        value: "PiHole, NGINX Proxy, NGINX (various sites), Uptime Kuma, Cloudflared",
     },
 ]
 

@@ -1,5 +1,9 @@
 const CAMERA_GEAR = [
     {
+        key: "DJI",
+        value: "Mini 5 Pro (with DJI RC 2)",
+    },
+    {
         key: "Manfrotto",
         value: "MM294A4 Monopod",
     },
