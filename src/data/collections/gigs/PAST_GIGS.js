@@ -663,6 +663,17 @@ const PAST_GIGS = [
         venue: "Utilita Arena, Birmingham",
         date: new Date("2025-09-20"),
     },
+    {
+        title: "Henning Wehn - Acid Wehn",
+        type: "comedy",
+        venue: "Gatehouse Theatre, Stafford",
+        date: new Date("2025-10-08"),
+    },
+    {
+        title: "The Midnight",
+        venue: "Octagon Centre, Sheffield",
+        date: new Date("2025-10-10"),
+    },
 ]
 
 export default PAST_GIGS

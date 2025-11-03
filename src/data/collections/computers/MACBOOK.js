@@ -5,27 +5,27 @@ const MACBOOK = [
     },
     {
         key: "Model",
-        value: 'MacBook Air M2 13"',
+        value: 'MacBookPro M5 14"',
     },
     {
         key: "Colour",
-        value: "Midnight",
+        value: "Space Black",
     },
     {
         key: "CPU & GPU",
-        value: "Apple M2 (8-core CPU (4P/4E cores), 8-core GPU)",
+        value: "Apple M5 (10-core CPU (4P/6E cores), 10-core GPU)",
     },
     {
         key: "RAM",
-        value: "8GB Unified Memory",
+        value: "32 GB Unified Memory",
     },
     {
         key: "SSD",
-        value: "256GB SSD",
+        value: "2 TB SSD",
     },
     {
         key: "Display",
-        value: "13.6 inch P3 Liquid Retina Display @ 2560×1664",
+        value: "14.2 inch Liquid Retina XDR Display @ 3024×1964",
     },
 ]
 
