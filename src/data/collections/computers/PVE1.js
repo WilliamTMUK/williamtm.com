@@ -63,14 +63,6 @@ const COMPUTER = [
         key: "OS",
         value: "Proxmox VE 8",
     },
-    {
-        key: "VMs",
-        value: "Windows 11 Pro, Windows Server 2025, HomeAssistant, Docker, ADSB Feeder",
-    },
-    {
-        key: "LXCs",
-        value: "PiHole, NGINX Proxy, NGINX (various sites), Uptime Kuma, Cloudflared",
-    },
 ]
 
 export default COMPUTER

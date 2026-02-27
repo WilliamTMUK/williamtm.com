@@ -1,8 +1,9 @@
 const UPCOMING_GIGS = [
     {
-        title: "Daft Punkz (The Live Band Daft Punk Tribute)",
-        venue: "The Station, Cannock",
-        date: new Date("2026-02-21"),
+        title: "Matt Rife - Stay Golden World Tour",
+        type: "comedy",
+        venue: "AO Arena, Manchester",
+        date: new Date("2026-04-24"),
     },
     {
         title: "The Weeknd - After Hours Til Dawn Tour",

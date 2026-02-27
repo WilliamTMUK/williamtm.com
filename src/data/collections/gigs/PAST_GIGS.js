@@ -674,6 +674,11 @@ const PAST_GIGS = [
         venue: "Octagon Centre, Sheffield",
         date: new Date("2025-10-10"),
     },
+    {
+        title: "Daft Punkz (The Live Band Daft Punk Tribute)",
+        venue: "The Station, Cannock",
+        date: new Date("2026-02-21"),
+    },
 ]
 
 export default PAST_GIGS
