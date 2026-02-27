@@ -1,7 +1,7 @@
 const COMPUTER = [
     {
         key: "Hostname",
-        value: "w1.williamtm.com",
+        value: "w1.williamtm.dev",
     },
     {
         key: "Case",

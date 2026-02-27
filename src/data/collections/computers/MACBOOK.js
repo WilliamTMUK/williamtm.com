@@ -1,7 +1,7 @@
 const MACBOOK = [
     {
         key: "Hostname",
-        value: "w2.williamtm.com",
+        value: "w2.williamtm.dev",
     },
     {
         key: "Model",
