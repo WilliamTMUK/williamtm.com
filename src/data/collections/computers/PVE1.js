@@ -61,7 +61,7 @@ const COMPUTER = [
     },
     {
         key: "OS",
-        value: "Proxmox VE 8",
+        value: "Proxmox VE 9",
     },
 ]
 
