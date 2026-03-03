@@ -5,7 +5,7 @@ const COMPUTER = [
     },
     {
         key: "Model",
-        value: "HP EliteDesk 800 G6 Mini",
+        value: "HP ProDesk 600 G6 Mini",
     },
     {
         key: "CPU",
@@ -17,7 +17,7 @@ const COMPUTER = [
     },
     {
         key: "SSD",
-        value: "Crucial P3 Plus 500GB PCIe 4.0 M.2 SSD",
+        value: "256GB PCIe 4.0 M.2 SSD",
     },
     {
         key: "OS",
