@@ -1,7 +1,7 @@
 const COMPUTER = [
     {
         key: "Hostname",
-        value: "inf-qb.williamtm.dev",
+        value: "pm-nostromo.williamtm.dev",
     },
     {
         key: "Case",

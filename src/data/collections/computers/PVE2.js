@@ -1,7 +1,7 @@
 const COMPUTER = [
     {
         key: "Hostname",
-        value: "inf-minimox01.williamtm.dev",
+        value: "pm-sulaco.williamtm.dev",
     },
     {
         key: "Model",
@@ -9,14 +9,14 @@ const COMPUTER = [
     },
     {
         key: "CPU",
-        value: "Intel Core i5-10500T (12-Core @ 2.30GHz)",
+        value: "Intel Core i5-10500 (6-Core @ 3.1GHz, 65W)",
     },
     {
         key: "RAM",
-        value: "16 GB DDR4",
+        value: "Micron 16GB (1×16GB, DDR4, 3200 MT/s)",
     },
     {
-        key: "SSD",
+        key: "SSD 1",
         value: "Crucial P3 Plus 500GB PCIe 4.0 M.2 SSD",
     },
     {

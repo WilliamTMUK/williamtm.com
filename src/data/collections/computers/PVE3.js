@@ -1,7 +1,7 @@
 const COMPUTER = [
     {
         key: "Hostname",
-        value: "inf-minimox01.williamtm.dev",
+        value: "pm-auriga.williamtm.dev",
     },
     {
         key: "Model",
@@ -9,15 +9,19 @@ const COMPUTER = [
     },
     {
         key: "CPU",
-        value: "Intel Core i5-10500T (12-Core @ 2.30GHz)",
+        value: "Intel Core i5-10500T (6-Core @ 2.30GHz, 35W)",
     },
     {
         key: "RAM",
-        value: "16 GB DDR4",
+        value: "Micron 16GB (1×16GB, DDR4, 3200 MT/s)",
     },
     {
-        key: "SSD",
-        value: "256GB PCIe 4.0 M.2 SSD",
+        key: "SSD 1",
+        value: "Kioxia 256GB PCIe 3.0 M.2 NVMe",
+    },
+    {
+        key: "SSD 2",
+        value: "SK hynix 256GB PCIe 3.0 M.2 NVMe",
     },
     {
         key: "OS",
