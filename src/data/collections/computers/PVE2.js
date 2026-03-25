@@ -13,7 +13,7 @@ const COMPUTER = [
     },
     {
         key: "RAM",
-        value: "Micron 16GB (2×16GB, DDR4, 3200 MT/s)",
+        value: "Micron 32GB (2×16GB, DDR4, 3200 MT/s)",
     },
     {
         key: "SSD 1",
