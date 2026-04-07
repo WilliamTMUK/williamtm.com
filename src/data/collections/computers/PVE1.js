@@ -41,11 +41,11 @@ const COMPUTER = [
     },
     {
         key: "HDD 1",
-        value: "Western Digital Red Pro (NAS) 24TB SATA3 512MB Cache (WD240KFGX)",
+        value: "Western Digital Red Pro (NAS) 26TB SATA3 512MB Cache (WD260KFGX)",
     },
     {
         key: "HDD 2",
-        value: "Western Digital Gold (Enterprise) 18TB SATA3 512MB Cache (WD181KRYZ)",
+        value: "Western Digital Red Pro (NAS) 24TB SATA3 512MB Cache (WD240KFGX)",
     },
     {
         key: "HDD 3",
@@ -53,6 +53,10 @@ const COMPUTER = [
     },
     {
         key: "HDD 4",
+        value: "Western Digital Gold (Enterprise) 18TB SATA3 512MB Cache (WD181KRYZ)",
+    },
+    {
+        key: "HDD 5",
         value: "Western Digital Red (NAS) 4TB SATA2 64MB Cache (WD40EFRX)",
     },
     {
