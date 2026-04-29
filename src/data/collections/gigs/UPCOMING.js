@@ -2,7 +2,7 @@ const UPCOMING_GIGS = [
     {
         title: "Jeff Goldblum & The Mildred Snitzer Orchestra - The Night Blooms Tour",
         venue: "Civic Hall, Wolverhampton",
-        date: new Date("2026-04-24"),
+        date: new Date("2026-05-24"),
     },
     {
         title: "Al Murray - All You Need Is Guv",
