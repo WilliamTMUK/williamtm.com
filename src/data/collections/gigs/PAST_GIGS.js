@@ -679,6 +679,12 @@ const PAST_GIGS = [
         venue: "The Station, Cannock",
         date: new Date("2026-02-21"),
     },
+    {
+        title: "Matt Rife - Stay Golden World Tour",
+        type: "comedy",
+        venue: "AO Arena, Manchester",
+        date: new Date("2026-04-24"),
+    },
 ]
 
 export default PAST_GIGS
