@@ -5,7 +5,7 @@ const COMPUTER = [
     },
     {
         key: "Case",
-        value: "Jonsbo N3 Mini-ITX NAS Case",
+        value: "Jonsbo N6 Micro-ITX NAS Case",
     },
     {
         key: "PSU",
@@ -13,11 +13,11 @@ const COMPUTER = [
     },
     {
         key: "Motherboard",
-        value: "Asus ROG STRIX B760-I GAMING WIFI",
+        value: "Asus PRIME Z890M-PLUS WiFi",
     },
     {
         key: "CPU",
-        value: "Intel Core i7-12700K (12-Core @ 3.6 GHz)",
+        value: "Intel Core Ultra 7 270K Plus (24-Core @ 3.7 GHz)",
     },
     {
         key: "HSF",
