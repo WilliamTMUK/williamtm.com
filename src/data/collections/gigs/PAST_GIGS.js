@@ -711,6 +711,13 @@ const PAST_GIGS = [
         venue: "Wembley Stadium, London",
         date: new Date("2026-08-15"),
     },
+    {
+        title: "Alasdair Beckett-King - King of Crumbs",
+        type: "comedy",
+        venue: "Stafford Gatehouse Theatre, Stafford",
+        date: new Date("2026-06-07"),
+    },
+    
 ]
 
 export default PAST_GIGS
